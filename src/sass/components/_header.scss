@@ -1,0 +1,77 @@
+.header {
+    &_logo {
+        width: 6rem;
+        height: 100%;
+        margin-bottom: 0;
+
+        @include respond(medium) {
+            width: 9rem;
+        }
+
+        @include respond(large) {
+            width: 12rem;
+        }
+    }
+
+    body.nav-open {
+        overflow: hidden;
+    }
+
+    &_toggle-icon {
+        cursor: pointer;
+    }
+
+    &_sliding-nav {
+        position: fixed;
+        left: -100vw;
+        top: 0;
+        transition: all 300ms ease-in-out;
+        height: 100vh;
+        width: 100%;
+        background-color: $color-white;
+        z-index: 100;
+
+        @include respond(medium) {
+            min-width: initial;
+            background-color: initial;
+            position: initial;
+            transition: initial;
+            height: initial;
+        }
+
+        &.active {
+            left: 0;
+            z-index: 100;
+        }
+
+        ul {
+            @include respond(medium) {
+                display: flex;
+                justify-content: flex-end;
+                gap: 6rem;
+                margin-bottom: 0;
+                padding-top: 0;
+            }
+        }
+
+        ul li a {
+            text-transform: uppercase;
+            color: $color-grey-2;
+            font-size: 2.5rem;
+            display: inline-block;
+            margin-bottom: 2rem;
+
+            @include respond(medium) {
+                font-size: 1.8rem;
+                margin-bottom: unset;
+                display: unset;
+            }
+        }
+    }
+}
+
+.left-border {
+    @include respond(medium) {
+        border-left: 10px solid $color-secondary;
+    }
+}

@@ -1,0 +1,24 @@
+// COLORS
+$color-primary: #01599f;
+$color-primary-light: #005a9f79;
+$color-secondary: #cf5c2c;
+
+$color-dark-1: #182431;
+$color-grey-2: #182431c9;
+$color-grey-3: #555d64;
+
+$color-white: #fff;
+$color-white-2: #ebedef;
+$color-black: #000;
+
+// FONT
+$default-font-size: 1.6rem;
+
+@include respond(medium) {
+    $default-font-size: 1.8rem;
+}
+
+$font-grotesk-medium: "SpaceGrotesk-Medium";
+$font-grotesk-regular: "SpaceGrotesk-Regular";
+$font-product-light: "ProductSans-Light";
+$font-product-regular: "ProductSans-Regular";

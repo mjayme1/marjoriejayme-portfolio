@@ -1,0 +1,41 @@
+@mixin alignCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin grid($min, $gridGap) {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax($min, 1fr));
+    grid-gap: $gridGap;
+    align-items: stretch;
+}
+
+// MEDIA QUERY MANAGER
+/*
+$breakpoint arguement choices:
+- medium
+- large
+- xl
+
+1rem = 16px
+*/
+@mixin respond($breakpoint) {
+    @if $breakpoint == medium {
+        @media only screen and (min-width: 48rem) {
+            @content;
+        } //768px
+    }
+
+    @if $breakpoint == large {
+        @media only screen and (min-width: 62rem) {
+            @content;
+        } //992px
+    }
+
+    @if $breakpoint == larger {
+        @media only screen and (min-width: 75rem) {
+            @content;
+        } //1200px
+    }
+}

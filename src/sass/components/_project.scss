@@ -1,0 +1,54 @@
+.single-project {
+    margin-bottom: 8rem;
+
+    &_banner {
+        border-bottom-left-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+        margin-bottom: 4rem;
+
+        @include respond(larger) {
+            border-bottom-left-radius: 4rem;
+            border-bottom-right-radius: 4rem;
+        }
+    }
+
+    .table {
+        &-borderless > :not(caption) > * > * {
+            background-color: $color-white-2;
+        }
+
+        th {
+            color: $color-primary;
+            font-family: $font-product-regular;
+        }
+    }
+
+    &_url {
+        color: $color-dark-1;
+    }
+
+    &_lightbox {
+        margin-top: 8rem !important;
+
+        &.grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+            grid-gap: 0.5rem 1.5rem;
+            align-items: stretch;
+
+            @include respond(larger) {
+                grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+                grid-gap: 1rem 2rem;
+            }
+        }
+    }
+}
+
+// Lightbox Modified Styles
+._1yWyS {
+    place-items: center !important;
+}
+
+img.imageModal {
+    height: initial;
+}

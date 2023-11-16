@@ -1,0 +1,38 @@
+.banner {
+    &_intro {
+        min-height: 50vh;
+        flex-wrap: wrap;
+    }
+
+    h3 {
+        color: $color-primary;
+        font-size: 4rem;
+        letter-spacing: -0.15rem;
+
+        @include respond(medium) {
+            font-size: 7rem;
+            letter-spacing: -0.3rem;
+        }
+    }
+
+    &_arrow-to-works {
+        position: absolute;
+        bottom: -6rem;
+        transition: all 400ms ease-in-out;
+
+        &:hover {
+            transform: translateY(1rem);
+        }
+    }
+
+    pre {
+        font-family: "Courier", sans-serif;
+        color: $color-primary-light;
+        letter-spacing: 0.35rem;
+
+        & + p {
+            max-width: 60ch;
+            border-left: 1px solid #00599f4d;
+        }
+    }
+}

@@ -1,0 +1,23 @@
+body {
+    font-size: $default-font-size;
+    font-family: $font-product-light;
+    line-height: 1.5;
+    letter-spacing: 0.25px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: $font-grotesk-medium;
+}
+
+h2 {
+    font-size: 6rem;
+}
+
+a {
+    font-family: $font-grotesk-regular;
+    color: $color-primary;
+    text-decoration: none;
+}

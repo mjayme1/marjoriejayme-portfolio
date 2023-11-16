@@ -1,0 +1,13 @@
+footer {
+    font-family: $font-grotesk-regular;
+    font-size: 1.8rem;
+    text-align: center;
+
+    p {
+        color: $color-primary;
+
+        @include respond(medium) {
+            text-align: left;
+        }
+    }
+}
