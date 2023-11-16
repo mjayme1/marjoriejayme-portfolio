@@ -5,11 +5,12 @@
 @import "base/typography";
 @import "base/utilities";
 
+@import "components/footer";
+@import "components/header";
 @import "components/projects";
 @import "components/project";
 @import "components/button";
-@import "components/footer";
-@import "components/header";
+@import "components/loading-screen";
 
 @import "pages/home";
 @import "pages/work";
