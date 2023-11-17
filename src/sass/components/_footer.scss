@@ -1,0 +1,30 @@
+footer {
+    color: $color-dark-2;
+    font-size: 1.8rem;
+    text-align: center;
+
+    p {
+        @include respond(medium) {
+            text-align: left;
+        }
+
+        .copyright {
+            color: $color-dark-1;
+            font-size: 1.8rem;
+
+            @include respond(medium) {
+                font-family: $font-grotesk-semibold;
+            }
+        }
+
+        .developer {
+            @include respond(medium) {
+                font-size: $default-font-size;
+            }
+        }
+    }
+
+    .socials a {
+        color: $color-dark-1;
+    }
+}

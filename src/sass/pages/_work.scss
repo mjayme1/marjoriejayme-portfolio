@@ -1,0 +1,7 @@
+.works {
+    padding: 4rem 0 10rem;
+
+    @include respond(large) {
+        padding: 10rem 0;
+    }
+}

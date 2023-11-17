@@ -1,0 +1,309 @@
+[
+  {
+    "id": 1,
+    "title": "Tindill Electric",
+    "shortdescription": "Tindill Electric is an electrical company based in Edmonton that offers residential and commercial electrical services. We worked as a team of three with Tindill Electric to develop their website from planning to deployment.",
+    "longdescription": "Tindill Electric is an Edmonton-based electrical company that provides residential and commercial electrical services. As a team of three, we collaborated with an industry client to develop their website, from planning to deployment. One of my main responsibilities was to lead the team in designing the website's wireframe, and ensure that it met all project specifications. This prototype served as a guide for me and the other developers, enabling us to efficiently implement the website into code.",
+    "slug": "tindill-electric",
+    "imagefeatured": "/assets/tindill/tindill-electric.jpg",
+    "images": [
+        {
+            "src": "/assets/tindill/tindill-electric-banner.jpg",
+            "alt": "Tindill Electric's Website Banner"
+        },
+        {
+            "src": "/assets/tindill/tindill-electric-1.jpg",
+            "alt": "Tindill Electric's Home Banner"
+        },
+        {
+            "src": "/assets/tindill/tindill-electric-2.jpg",
+            "alt": "Tindill Electric's Home Featured Projects"
+        },
+        {
+            "src": "/assets/tindill/tindill-electric-3.jpg",
+            "alt": "Tindill Electric's Home Reviews & Call-To-Action"
+        },
+        {
+            "src": "/assets/tindill/tindill-electric-4.jpg",
+            "alt": "Tindill Electric's 404 Page Not Found"
+        }
+    ],
+    "skills": [
+        "Adobe XD", 
+        "WordPress", 
+        "HTML/SASS/JS"
+    ],
+    "categories": [
+        "Branding",
+        "Web Design",
+        "Web Development"
+    ],
+    "year": "2023",
+    "url": "https://tindillelectric.com/",
+    "calltoaction": "Visit Website"
+  },
+  {
+    "id": 2,
+    "title": "E-Learning",
+    "shortdescription": "E-Learning, a fictitious start-up, aims to develop an interactive online learning platform. I created a custom theme for its WordPress site, enhancing both aesthetics and user experience.",
+    "longdescription": "E-Learning is a fictitious start-up I developed in our Content Management System subject. We were tasked to create a custom theme for the company's WordPress website that aimed to provide seamless online learning experiences. I designed a responsive website that includes page and post templates, a fully responsive header, footer, and sidebar widgets. The goal was to create a visually appealing and functional website that was easy to navigate and interact with, whether on a desktop or mobile device.",
+    "slug": "e-learning",
+    "imagefeatured": "/assets/elearning/elearning.jpg",
+    "images": [
+        {
+            "src": "/assets/elearning/elearning-banner.jpg",
+            "alt": "E-Learning Home Banner"
+        },
+        {
+            "src": "/assets/elearning/elearning-1.jpg",
+            "alt": "E-Learning Home Banner"
+        },
+        {
+            "src": "/assets/elearning/elearning-2.jpg",
+            "alt": "E-Learning Pricing Page"
+        },
+        {
+            "src": "/assets/elearning/elearning-3.jpg",
+            "alt": "E-Learning Tips & Resources Page"
+        },
+        {
+            "src": "/assets/elearning/elearning-4.jpg",
+            "alt": "E-Learning Courses Page"
+        },
+        {
+            "src": "/assets/elearning/elearning-5.jpg",
+            "alt": "E-Learning Contact Page"
+        }
+    ],
+    "skills": [
+        "WordPress",
+        "HTML/CSS/JS"
+    ],
+    "categories": [
+        "Branding",
+        "Web Development"
+    ],
+    "year": "2022",
+    "url": "https://marjoriejayme.ca/NAIT/dmit2032/wpelearning/",
+    "calltoaction": "Visit Website"
+  },
+  {
+    "id": 3,
+    "title": "Prestigio Bakery",
+    "shortdescription": "This project is called the Unsolicited Website Redesign where I chose the website of Prestigio Bakery. The project involved creating an inspirational moodboard, a low-fidelity wireframe for initial layout ideas, and a high-fidelity wireframe that presents a polished interface design.",
+    "longdescription": "This project is called the Unsolicited Website Redesign where I chose the redesign the website of Prestigio Bakery and Bistro. The project involved detailed steps: creating an inspirational moodboard, developing a low-fidelity wireframe for initial layout ideas, and finally creating a high-fidelity wireframe that presents a polished interface design. The goal of the project was to improve the user experience of the website by creating a more user-friendly and visually appealing layout.",
+    "slug": "prestigio-bakery-and-bistro",
+    "imagefeatured": "/assets/prestigio/prestigio-bakery.jpg",
+    "images": [
+        {
+            "src": "/assets/prestigio/prestigio-bakery-banner.jpg",
+            "alt": "Prestigio Bakery Home Banner"
+        },
+        {
+            "src": "/assets/prestigio/prestigio-bakery-1.jpg",
+            "alt": "Prestigio Bakery Home Banner"
+        },
+        {
+            "src": "/assets/prestigio/prestigio-bakery-2.jpg",
+            "alt": "Prestigio Bakery Home About"
+        },
+        {
+            "src": "/assets/prestigio/prestigio-bakery-3.jpg",
+            "alt": "Prestigio Bakery Home Video"
+        },
+        {
+            "src": "/assets/prestigio/prestigio-bakery-4.jpg",
+            "alt": "Prestigio Bakery Home Featured Specialties"
+        },
+        {
+            "src": "/assets/prestigio/prestigio-bakery-5.jpg",
+            "alt": "Prestigio Bakery Home Call-To-Action"
+        }
+    ],
+    "skills": [
+        "Adobe XD",
+        "Adobe Photoshop"
+    ],
+    "categories": [
+        "Branding",
+        "Web Design"
+    ],
+    "year": "2022",
+    "files": [
+        {
+            "file": "/assets/prestigio/Low-Fidelity-Wireframes.pdf",
+            "title": "Low-Fidelity.pdf"
+        },
+        {
+            "file": "/assets/prestigio/Moodboard.pdf",
+            "title": "Mood-Board.pdf"
+        }
+    ],
+    "url": "https://xd.adobe.com/view/58cf8de1-5cdd-444c-b344-42b0876382f8-0d9c/",
+    "calltoaction": "View Full Wireframe"
+  },
+  {
+    "id": 4,
+    "title": "Experience Irricana",
+    "shortdescription": "Experience Irricana is a website I developed as part of my web business essentials course. This required me to create a landing page for a small town in Alberta, which helped me gain a better understanding of SEO and its application.",
+    "longdescription": "Experience Irricana is a website I developed as part of my web business essentials course. The project required me to create a landing page for a small town in Alberta, which helped me gain a better understanding of SEO and its application. To optimize the website, I performed several activities such as writing relevant content, installing Google Analytics and Search Console, implementing social media and email marketing, and conducting SEO audits.\n",
+    "slug": "experience-irricana",
+    "imagefeatured": "/assets/irricana/experience-irricana.jpg",
+    "images": [
+        {
+            "src": "/assets/irricana/experience-irricana-banner.jpg",
+            "alt": "Experience Irricana Banner"
+        },
+        {
+            "src": "/assets/irricana/experience-irricana-1.jpg",
+            "alt": "Experience Irricana Banner"
+        },
+        {
+            "src": "/assets/irricana/experience-irricana-2.jpg",
+            "alt": "Experience Irricana About"
+        },
+        {
+            "src": "/assets/irricana/experience-irricana-3.jpg",
+            "alt": "Experience Irricana Facilities and Recreation"
+        },
+        {
+            "src": "/assets/irricana/experience-irricana-4.jpg",
+            "alt": "Experience Irricana Featured Article"
+        },
+        {
+            "src": "/assets/irricana/experience-irricana-5.jpg",
+            "alt": "Experience Irricana Town Events"
+        },
+        {
+            "src": "/assets/irricana/experience-irricana-6.jpg",
+            "alt": "Experience Irricana Map and Directions"
+        }
+    ],
+    "skills": [
+        "SEO",
+        "HTML/CSS",
+        "Content Writing"
+    ],
+    "categories": [
+        "Web Development"
+    ],
+    "year": "2022",
+    "url": "https://irricana.netlify.app/",
+    "calltoaction": "Visit Website"
+  },
+  {
+    "id": 5,
+    "title": "Anthony's Best",
+    "shortdescription": "As a final project for our design and usability course, I created a landing page for a fictional chef named Anthony. The page was carefully designed to showcase Anthony's culinary expertise and provide an excellent user experience for visitors.",
+    "longdescription": "I designed a landing page for a fictitious chef named Anthony as part of our design and usability course's final project. The landing page aims to explain to potential new users the website's purpose, its target audience, and the potential advantages of becoming a member. We were tasked with creating a landing page that can effectively engage and encourage visitors enough to regularly use his website for their recipe needs.",
+    "slug": "anthonys-best",
+    "imagefeatured": "/assets/anthonys/anthonys-best.jpg",
+    "images": [
+        {
+            "src": "/assets/anthonys/anthonys-best-banner.jpg",
+            "alt": "Anthony's Best Banner"
+        },
+        {
+            "src": "/assets/anthonys/anthonys-best-1.jpg",
+            "alt": "Anthony's Best Banner"
+        },
+        {
+            "src": "/assets/anthonys/anthonys-best-2.jpg",
+            "alt": "Anthony's Best About and Popular Recipes"
+        },
+        {
+            "src": "/assets/anthonys/anthonys-best-3.jpg",
+            "alt": "Anthony's Best Reviews and Fun Food Quizzes"
+        },
+        {
+            "src": "/assets/anthonys/anthonys-best-4.jpg",
+            "alt": "Anthony's Best Newsletter and Footer"
+        }
+    ],
+    "skills": [
+        "Adobe XD",
+        "Adobe Photoshop"
+    ],
+    "categories": [
+        "Branding",
+        "Web Design"
+    ],
+    "year": "2022",
+    "url": "https://xd.adobe.com/view/ef821e75-8944-4ebd-8ea4-d7f4c972eae4-bad1/",
+    "calltoaction": "View Full Wireframe"
+  },
+  {
+    "id": 6,
+    "title": "Lost & Found App Design",
+    "shortdescription": "As part of our course in Advanced Communication for DMIT, we were assigned to create an idea or concept for a product or service. I proposed a lost and found app, and to effectively pitch the idea, I designed its user interface.",
+    "longdescription": "As part of our course in Advanced Communication for DMIT, we were assigned to create an idea or concept for a product or service. I created a 5-minute pitch presentation outlining the problem, my proposed solution, and the benefits it provides to the target audience. I proposed a lost and found app complemented by a user interface design for a more effective pitch and user manual.",
+    "slug": "lost-found-app-design",
+    "imagefeatured": "/assets/lostfound/lost-found-app.jpg",
+    "images": [
+        {
+            "src": "/assets/lostfound/lost-found-app-banner.jpg",
+            "alt": "Lost & Found App Banner"
+        },
+        {
+            "src": "/assets/lostfound/lost-found-app-1.jpg",
+            "alt": "Lost & Found App Splash Screen"
+        },
+        {
+            "src": "/assets/lostfound/lost-found-app-2.jpg",
+            "alt": "Lost & Found App Introduction Screen"
+        },
+        {
+            "src": "/assets/lostfound/lost-found-app-3.jpg",
+            "alt": "Lost & Found App Login Screen"
+        },
+        {
+            "src": "/assets/lostfound/lost-found-app-4.jpg",
+            "alt": "Lost & Found App Registration Screen"
+        },
+        {
+            "src": "/assets/lostfound/lost-found-app-5.jpg",
+            "alt": "Lost & Found App Email Verification Screen"
+        },
+        {
+            "src": "/assets/lostfound/lost-found-app-6.jpg",
+            "alt": "Lost & Found App Verified Screen"
+        },
+        {
+            "src": "/assets/lostfound/lost-found-app-7.jpg",
+            "alt": "Lost & Found App Home Screen"
+        },
+        {
+            "src": "/assets/lostfound/lost-found-app-8.jpg",
+            "alt": "Lost & Found App Choose Location Radius Screen"
+        },
+        {
+            "src": "/assets/lostfound/lost-found-app-9.jpg",
+            "alt": "Lost & Found App Posts Screen"
+        },
+        {
+            "src": "/assets/lostfound/lost-found-app-10.jpg",
+            "alt": "Lost & Found App Post More Options Popup Screen"
+        },
+        {
+            "src": "/assets/lostfound/lost-found-app-11.jpg",
+            "alt": "Lost & Found App Message Screen"
+        },
+        {
+            "src": "/assets/lostfound/lost-found-app-12.jpg",
+            "alt": "Lost & Found App Confirm Claim Popup Screen"
+        }
+    ],
+    "skills": [
+        "Adobe XD",
+        "Adobe Photoshop"
+    ],
+    "categories": [
+        "Branding",
+        "Illustration",
+        "Web Design"
+    ],
+    "year": "2022",
+    "url": "https://xd.adobe.com/view/e559872f-d606-4e40-9072-a960a5ebeaa2-b00a/",
+    "calltoaction": "View Full Wireframe"
+  }
+]

@@ -1,0 +1,119 @@
+.projects {
+    padding: 10rem 0;
+}
+
+.project {
+    &:not(:last-child) {
+        padding-bottom: 7rem;
+        margin-bottom: 7rem;
+        border-bottom: 1px solid $color-dark-2;
+
+        @include respond(large) {
+            padding-bottom: 9rem;
+            margin-bottom: 9rem;
+        }
+    }
+
+    &_col__imagefeatured {
+        @include respond(large) {
+            order: 0;
+        }
+    }
+
+    &_col__details {
+        @include respond(large) {
+            order: -1;
+        }
+    }
+
+    &__imagefeatured {
+        order: 1;
+        margin-bottom: 2rem;
+        height: 26rem;
+        overflow: hidden;
+
+        @include respond(medium) {
+            margin-bottom: 0;
+            height: 36rem;
+        }
+
+        @include respond(larger) {
+            height: 32rem;
+        }
+
+        img {
+            object-fit: cover;
+            object-position: top;
+            height: 100%;
+
+            @include respond(larger) {
+                transition: all 1s ease-in-out;
+
+                &:hover {
+                    transform: translateY(-30rem);
+                }
+            }
+        }
+    }
+
+    &:nth-child(2) .project__imagefeatured img {
+        @include respond(larger) {
+            transition: all 600ms ease-in-out;
+
+            &:hover {
+                transform: translateY(-15rem);
+            }
+        }
+    }
+
+    &:nth-child(6) img:hover {
+        transform: translateY(0);
+    }
+
+    h3 {
+        font-size: 2rem;
+        color: $color-dark-1;
+        text-transform: uppercase;
+    }
+
+    p {
+        color: $color-dark-3;
+    }
+
+    ul {
+        display: flex;
+        gap: 0 0.5rem;
+        flex-wrap: wrap;
+        margin: 2rem 0;
+
+        @include respond(large) {
+            display: unset;
+            margin: unset;
+        }
+
+        li {
+            background-color: $color-primary;
+            color: $color-white;
+            font-size: 1.35rem;
+            text-align: center;
+            border-radius: 50rem;
+            padding: 0.3rem 1.35rem;
+
+            @include respond(large) {
+                margin-bottom: 0.5rem;
+                width: fit-content;
+            }
+        }
+    }
+
+    &__more {
+        color: $color-dark-1;
+        transition: all 200ms ease-in-out;
+
+        &:hover {
+            opacity: 0.9;
+            animation: pulse;
+            animation-duration: 1.5s;
+        }
+    }
+}

@@ -1,0 +1,46 @@
+@import "abstracts/mixins";
+@import "abstracts/variables";
+
+@import "base/base";
+@import "base/typography";
+@import "base/utilities";
+
+@import "components/footer";
+@import "components/header";
+@import "components/projects";
+@import "components/project";
+@import "components/button";
+
+@import "pages/home";
+@import "pages/work";
+@import "pages/about";
+
+@font-face {
+    font-family: "SpaceGrotesk-Medium";
+    src: local("SpaceGrotesk-Medium"),
+        url("../fonts/SpaceGrotesk-Medium.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "SpaceGrotesk-Regular";
+    src: local("SpaceGrotesk-Regular"),
+        url("../fonts/SpaceGrotesk-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "SpaceGrotesk-SemiBold";
+    src: local("SpaceGrotesk-SemiBold"),
+        url("../fonts/SpaceGrotesk-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "ProductSans-Light";
+    src: local("ProductSans-Light"),
+        url("../fonts/ProductSans-Light.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "ProductSans-Regular";
+    src: local("ProductSans-Regular"),
+        url("../fonts/ProductSans-Regular.ttf") format("truetype");
+}

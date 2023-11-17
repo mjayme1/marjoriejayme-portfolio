@@ -1,0 +1,36 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%; // 1 rem = 10px;
+}
+
+body {
+    background-color: #3a53631a;
+    color: $color-dark-1;
+}
+
+img {
+    width: 100%;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+#portolio {
+    p {
+        margin-bottom: 1.8rem;
+    }
+
+    ol,
+    ul {
+        padding: 0;
+    }
+}
