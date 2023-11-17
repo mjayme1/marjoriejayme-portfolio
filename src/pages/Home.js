@@ -17,22 +17,12 @@ export default function Home() {
             <Container>
                 <section className="banner">
                     <h2 className="visually-hidden">Introduction</h2>
-                    <div className="banner_intro d-flex align-items-center justify-content-between position-relative">
+                    <div className="banner_intro d-flex align-items-center justify-content-between position-relative animate__animated animate__fadeInUp">
                         <h3 className="lh-2 lh-md-1">
-                            Hello, I'm
+                            Hello, I'm&nbsp;
                             <br />
                             Marjorie Jayme.
                         </h3>
-                        <a
-                            href="#work"
-                            className="banner_arrow-to-works mt-5 d-block"
-                        >
-                            <img
-                                src="/assets/down-arrow.svg"
-                                style={{ width: "40px", height: "40px" }}
-                                alt="Down Arrow"
-                            />
-                        </a>
                         <div>
                             <pre className="d-block mb-0">&lt;mjayme&gt;</pre>
                             <p className="py-4 py-md-3 ps-4 ps-md-5 my-0 fw-normal lh-sm">
@@ -47,12 +37,25 @@ export default function Home() {
                             </p>
                             <pre className="d-block mb-0">&lt;/mjayme&gt;</pre>
                         </div>
+                        <div className="banner_arrow-to-works">
+                            <a href="#work" className="d-block">
+                                <img
+                                    src="/assets/down-arrow.svg"
+                                    style={{ width: "45px", height: "45px" }}
+                                    alt="Down Arrow To Featured Projects"
+                                    title="Featured Projects"
+                                />
+                            </a>
+                        </div>
                     </div>
                 </section>
             </Container>
 
-            <Container>
-                <section className="projects" id="work">
+            <Container
+                className="animate__animated animate__fadeInUp"
+                id="work"
+            >
+                <section className="projects">
                     <h2 className="visually-hidden">Featured Projects</h2>
                     <div>
                         {featuredProjects.map((project) => (

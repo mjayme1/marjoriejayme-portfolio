@@ -25,6 +25,12 @@
 
     &_url {
         color: $color-dark-1;
+
+        &:hover {
+            opacity: 0.9;
+            animation: pulse;
+            animation-duration: 1.5s;
+        }
     }
 
     &_lightbox {

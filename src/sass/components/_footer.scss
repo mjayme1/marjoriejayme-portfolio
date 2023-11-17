@@ -1,13 +1,26 @@
 footer {
-    font-family: $font-grotesk-regular;
+    color: $color-dark-2;
     font-size: 1.8rem;
     text-align: center;
 
     p {
-        color: $color-primary;
-
         @include respond(medium) {
             text-align: left;
+        }
+
+        .copyright {
+            font-size: 1.8rem;
+            color: $color-primary;
+
+            @include respond(medium) {
+                font-family: $font-grotesk-semibold;
+            }
+        }
+
+        .developed {
+            @include respond(medium) {
+                font-size: $default-font-size;
+            }
         }
     }
 }

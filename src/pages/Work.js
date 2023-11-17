@@ -12,7 +12,7 @@ export default function Work() {
             <Header />
 
             <Container>
-                <div className="title my-5 text-center">
+                <div className="title my-5 text-center animate__animated animate__fadeInUp">
                     <h2 className="text-uppercase">Work</h2>
                 </div>
 

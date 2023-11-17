@@ -3,6 +3,12 @@
 
     &_contact-links {
         font-size: 1.8rem;
+
+        &:hover {
+            opacity: 0.9;
+            animation: pulse;
+            animation-duration: 1.5s;
+        }
     }
 
     &_my-image {

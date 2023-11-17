@@ -8,22 +8,27 @@ import { Row, Col } from "react-bootstrap";
 
 export default function About() {
     return (
-        <>
+        <div>
             <Header />
 
             <Container>
                 <div className="title my-5 text-center">
-                    <h2 className="text-uppercase">About</h2>
+                    <h2 className="text-uppercase animate__animated animate__fadeInUp animate__fast">
+                        About
+                    </h2>
                 </div>
                 <Row>
                     <Col xs={12} md={10} lg={8} className="mx-auto">
                         <div className="about">
-                            <img
-                                src="/assets/me.jpg"
-                                alt="Marjorie Jayme"
-                                className="about_my-image w-100"
-                            />
-                            <div>
+                            <div className="animate__animated animate__fadeInUp animate__fast">
+                                <img
+                                    src="/assets/me.jpg"
+                                    alt="Marjorie Jayme"
+                                    className="about_my-image w-100"
+                                />
+                            </div>
+
+                            <div className="animate__animated animate__fadeInUp">
                                 <p>
                                     Hello there! I'm a passionate developer who
                                     thrives on creative challenges. With over
@@ -80,7 +85,7 @@ export default function About() {
                                 </Link>
                                 <Link
                                     to="https://www.linkedin.com/in/marjorieannjayme/"
-                                    className="d-inline-flex mt-5 ms-5"
+                                    className="about_contact-links d-inline-flex mt-5 ms-5"
                                     target="_blank"
                                 >
                                     <span className="d-flex align-items-center gap-2">
@@ -99,6 +104,6 @@ export default function About() {
             </Container>
 
             <Footer />
-        </>
+        </div>
     );
 }

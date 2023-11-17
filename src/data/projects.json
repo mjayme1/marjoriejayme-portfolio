@@ -130,13 +130,13 @@
     ],
     "year": "2022",
     "url": "https://xd.adobe.com/view/58cf8de1-5cdd-444c-b344-42b0876382f8-0d9c/",
-    "calltoaction": "View prototype"
+    "calltoaction": "View all wireframe pages"
   },
   {
     "id": 4,
     "title": "Experience Irricana",
     "shortdescription": "Experience Irricana is a website I developed as part of my web business essentials course. This required me to create a landing page for a small town in Alberta, which helped me gain a better understanding of SEO and its application.",
-    "longdescription": "Experience Irricana is a website I developed as part of my web business essentials course. The project required me to create a landing page for a small town in Alberta, which helped me gain a better understanding of SEO and its application. To optimize the website, I performed activities such as writing relevant content, installing Google Analytics and Search Console, implementing social media and email marketing, and conducting SEO audits.",
+    "longdescription": "Experience Irricana is a website I developed as part of my web business essentials course. The project required me to create a landing page for a small town in Alberta, which helped me gain a better understanding of SEO and its application. To optimize the website, I performed several activities such as writing relevant content, installing Google Analytics and Search Console, implementing social media and email marketing, and conducting SEO audits.\n",
     "slug": "experience-irricana",
     "imagefeatured": "/assets/irricana/experience-irricana.jpg",
     "images": [
@@ -220,7 +220,7 @@
     ],
     "year": "2022",
     "url": "https://xd.adobe.com/view/ef821e75-8944-4ebd-8ea4-d7f4c972eae4-bad1/",
-    "calltoaction": "View prototype"
+    "calltoaction": "View full wireframe"
   },
   {
     "id": 6,
@@ -294,6 +294,6 @@
     ],
     "year": "2022",
     "url": "https://xd.adobe.com/view/e559872f-d606-4e40-9072-a960a5ebeaa2-b00a/",
-    "calltoaction": "View prototype"
+    "calltoaction": "View full wireframe"
   }
 ]

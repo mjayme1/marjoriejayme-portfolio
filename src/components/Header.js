@@ -1,9 +1,11 @@
 import { useState, useEffect } from "react";
+import { Link, useLocation } from "react-router-dom";
+
 import { Container } from "react-bootstrap";
-import { Link } from "react-router-dom";
 
 export default function Header() {
     const [navOpen, setNavOpen] = useState(false);
+    const location = useLocation();
 
     useEffect(() => {
         if (navOpen) {
@@ -12,6 +14,8 @@ export default function Header() {
             document.body.classList.remove("nav-open");
         }
     }, [navOpen]);
+
+    const isActive = (path) => location.pathname === path;
 
     return (
         <header className="header d-block d-md-flex align-items-sm-center py-5">
@@ -44,13 +48,21 @@ export default function Header() {
                         <h2 className="visually-hidden">Navigation</h2>
                         <div style={{ width: "100%" }}>
                             <ul>
-                                <li>
+                                <li className={isActive("/") ? "active" : ""}>
                                     <Link to="/">Home</Link>
                                 </li>
-                                <li>
+                                <li
+                                    className={
+                                        isActive("/work") ? "active" : ""
+                                    }
+                                >
                                     <Link to="/work">Work</Link>
                                 </li>
-                                <li>
+                                <li
+                                    className={
+                                        isActive("/about") ? "active" : ""
+                                    }
+                                >
                                     <Link to="/about">About</Link>
                                 </li>
                                 <li>

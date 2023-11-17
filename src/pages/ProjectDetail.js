@@ -29,9 +29,9 @@ export default function ProjectDetail() {
                         <img
                             src={project.images[0].src}
                             alt={project.images[0].alt || project.title}
-                            className="single-project_banner shadow-sm"
+                            className="single-project_banner shadow-sm animate__animated animate__fadeIn"
                         />
-                        <div className="single-project_details">
+                        <div className="single-project_details animate__animated animate__fadeInUp">
                             <h2 className="display-3 text-uppercase border-bottom border-2 border-dark pb-2">
                                 {project.id < 10 ? "0" : ""}
                                 {project.id} / {project.title}
@@ -128,34 +128,42 @@ export default function ProjectDetail() {
                                     </Link>
                                 </Col>
                             </Row>
-                        </div>
-
-                        {project.id === 6 ? (
-                            <div className="single-project_lightbox grid">
-                                {project.images.slice(1).map((image, index) => (
-                                    <img
-                                        key={index}
-                                        className="w-full rounded mb-4"
-                                        src={image.src}
-                                        alt={image.alt}
-                                    />
-                                ))}
+                            <div>
+                                <h3 className="visually-hidden">
+                                    Project Images
+                                </h3>
+                                {project.id === 6 ? (
+                                    <div className="single-project_lightbox grid">
+                                        {project.images
+                                            .slice(1)
+                                            .map((image, index) => (
+                                                <img
+                                                    key={index}
+                                                    className="w-full rounded mb-4"
+                                                    src={image.src}
+                                                    alt={image.alt}
+                                                />
+                                            ))}
+                                    </div>
+                                ) : (
+                                    <SlideshowLightbox
+                                        theme="lightbox"
+                                        className="single-project_lightbox"
+                                    >
+                                        {project.images
+                                            .slice(1)
+                                            .map((image, index) => (
+                                                <img
+                                                    key={index}
+                                                    className="w-full rounded mb-4"
+                                                    src={image.src}
+                                                    alt={image.alt}
+                                                />
+                                            ))}
+                                    </SlideshowLightbox>
+                                )}
                             </div>
-                        ) : (
-                            <SlideshowLightbox
-                                theme="lightbox"
-                                className="single-project_lightbox"
-                            >
-                                {project.images.slice(1).map((image, index) => (
-                                    <img
-                                        key={index}
-                                        className="w-full rounded mb-4"
-                                        src={image.src}
-                                        alt={image.alt}
-                                    />
-                                ))}
-                            </SlideshowLightbox>
-                        )}
+                        </div>
                     </div>
                 ) : (
                     <p>Project not found</p>

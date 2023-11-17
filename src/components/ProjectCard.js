@@ -4,7 +4,10 @@ import { Row, Col } from "react-bootstrap";
 
 export default function ProjectCard({ project }) {
     return (
-        <div className="project" key={project.id}>
+        <div
+            className="project animate__animated animate__fadeInUp"
+            key={project.id}
+        >
             <Row className="justify-content-between">
                 <Col xs={12} lg={6} className="project_col__imagefeatured">
                     <Link to={`/work/${project.slug}`}>

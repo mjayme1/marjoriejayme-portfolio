@@ -13,12 +13,23 @@
             font-size: 7rem;
             letter-spacing: -0.3rem;
         }
+
+        @include respond(large) {
+            font-size: 7.35rem;
+        }
     }
 
     &_arrow-to-works {
-        position: absolute;
-        bottom: -6rem;
-        transition: all 400ms ease-in-out;
+        display: none;
+
+        @include respond(medium) {
+            display: block;
+            position: absolute !important;
+            bottom: 0;
+            transition: all 400ms ease-in-out;
+            animation: fadeInUp;
+            animation-duration: 1s;
+        }
 
         &:hover {
             transform: translateY(1rem);

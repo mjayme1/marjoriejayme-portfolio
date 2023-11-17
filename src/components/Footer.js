@@ -6,11 +6,16 @@ export default function Footer() {
     return (
         <footer>
             <h2 className="visually-hidden">Footer</h2>
-            <Container className="border-top border-2 p-md-0 border-dark">
+            <Container className="border-top border-2 p-md-0 border-dark mt-5">
                 <Row className="py-5">
                     <Col xs={12} md={6}>
-                        <p className="mb-0 py-lg-4">
-                            &copy; Marjorie Jayme — 2023
+                        <p className="mb-0 py-lg-4 d-flex d-md-block gap-2 justify-content-center align-items-center">
+                            <span className="copyright d-md-block">
+                                &copy; 2023
+                            </span>
+                            <span className="developed d-md-block">
+                                Developed by Marjorie Jayme
+                            </span>
                         </p>
                     </Col>
                     <Col xs={12} md={6}>

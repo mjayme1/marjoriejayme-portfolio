@@ -6,7 +6,7 @@
     &:not(:last-child) {
         padding-bottom: 7rem;
         margin-bottom: 7rem;
-        border-bottom: 1px solid $color-grey-2;
+        border-bottom: 1px solid $color-dark-2;
 
         @include respond(large) {
             padding-bottom: 9rem;
@@ -56,7 +56,7 @@
         }
     }
 
-    &:nth-child(2) img {
+    &:nth-child(2) .project__imagefeatured img {
         @include respond(larger) {
             transition: all 600ms ease-in-out;
 
@@ -77,7 +77,7 @@
     }
 
     p {
-        color: $color-grey-3;
+        color: $color-dark-3;
     }
 
     ul {
@@ -108,5 +108,12 @@
 
     &__more {
         color: $color-dark-1;
+        transition: all 200ms ease-in-out;
+
+        &:hover {
+            opacity: 0.9;
+            animation: pulse;
+            animation-duration: 1.5s;
+        }
     }
 }

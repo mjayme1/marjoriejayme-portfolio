@@ -56,16 +56,24 @@
 
         ul li a {
             text-transform: uppercase;
-            color: $color-grey-2;
+            color: $color-dark-2;
             font-size: 2.5rem;
             display: inline-block;
             margin-bottom: 2rem;
+
+            &:hover {
+                color: $color-dark-1;
+            }
 
             @include respond(medium) {
                 font-size: 1.8rem;
                 margin-bottom: unset;
                 display: unset;
             }
+        }
+
+        .active a {
+            color: $color-dark-1;
         }
     }
 }
