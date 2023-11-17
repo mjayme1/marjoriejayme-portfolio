@@ -97,6 +97,52 @@ export default function ProjectDetail() {
                                                     </ul>
                                                 </td>
                                             </tr>
+
+                                            {project.files && (
+                                                <tr>
+                                                    <th
+                                                        className="py-3 text-uppercase"
+                                                        scope="row"
+                                                    >
+                                                        Assets
+                                                    </th>
+                                                    <td className="py-3">
+                                                        <ul>
+                                                            {project.files.map(
+                                                                (
+                                                                    file,
+                                                                    index
+                                                                ) => (
+                                                                    <li
+                                                                        key={
+                                                                            index
+                                                                        }
+                                                                        className="d-flex align-items-center gap-1"
+                                                                    >
+                                                                        {/* <img
+                                                                            src="/assets/document-outline.svg"
+                                                                            alt="Document Icon"
+                                                                            style={{
+                                                                                width: "15px",
+                                                                            }}
+                                                                        /> */}
+                                                                        <Link
+                                                                            to={
+                                                                                file.file
+                                                                            }
+                                                                            target="_blank"
+                                                                        >
+                                                                            {
+                                                                                file.title
+                                                                            }
+                                                                        </Link>
+                                                                    </li>
+                                                                )
+                                                            )}
+                                                        </ul>
+                                                    </td>
+                                                </tr>
+                                            )}
                                         </tbody>
                                     </Table>
                                 </Col>

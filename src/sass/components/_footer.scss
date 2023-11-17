@@ -9,18 +9,22 @@ footer {
         }
 
         .copyright {
+            color: $color-dark-1;
             font-size: 1.8rem;
-            color: $color-primary;
 
             @include respond(medium) {
                 font-family: $font-grotesk-semibold;
             }
         }
 
-        .developed {
+        .developer {
             @include respond(medium) {
                 font-size: $default-font-size;
             }
         }
+    }
+
+    .socials a {
+        color: $color-dark-1;
     }
 }

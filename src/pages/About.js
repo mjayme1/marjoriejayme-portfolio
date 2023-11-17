@@ -18,7 +18,7 @@ export default function About() {
                     </h2>
                 </div>
                 <Row>
-                    <Col xs={12} md={10} lg={8} className="mx-auto">
+                    <Col xs={12} md={10} lg={9} className="mx-auto">
                         <div className="about">
                             <div className="animate__animated animate__fadeInUp animate__fast">
                                 <img
@@ -28,7 +28,7 @@ export default function About() {
                                 />
                             </div>
 
-                            <div className="animate__animated animate__fadeInUp">
+                            <div className="about_description animate__animated animate__fadeInUp">
                                 <p>
                                     Hello there! I'm a passionate developer who
                                     thrives on creative challenges. With over
@@ -66,16 +66,15 @@ export default function About() {
 
                                 <p>
                                     If you want to collaborate on a project or
-                                    to know more about me, feel free to get in
-                                    touch.
+                                    just want a chat, feel free to get in touch!
                                 </p>
 
-                                <Link
-                                    to="mailto:marjorieannjayme@gmail.com"
-                                    className="about_contact-links d-inline-flex mt-5"
+                                {/* <Link
+                                    to="mailto:marjorieann1999@gmail.com"
+                                    className="about_contact-links d-inline-flex mt-5 text-decoration-underline"
                                 >
-                                    <span className="d-flex align-items-center gap-2">
-                                        <span>Email</span>
+                                    <span className="d-flex align-items-center gap-1">
+                                        <span>Email Me</span>
                                         <img
                                             src="/assets/right-up-arrow-blue.svg"
                                             alt="Right Up Arrow"
@@ -85,18 +84,18 @@ export default function About() {
                                 </Link>
                                 <Link
                                     to="https://www.linkedin.com/in/marjorieannjayme/"
-                                    className="about_contact-links d-inline-flex mt-5 ms-5"
+                                    className="about_contact-links d-inline-flex mt-5 ms-5 text-decoration-underline"
                                     target="_blank"
                                 >
-                                    <span className="d-flex align-items-center gap-2">
-                                        <span>LinkedIn</span>
+                                    <span className="d-flex align-items-center gap-1">
+                                        <span>LinkedIn Profile</span>
                                         <img
                                             src="/assets/right-up-arrow-blue.svg"
                                             alt="Email Icon"
                                             style={{ width: "20px" }}
                                         />
                                     </span>
-                                </Link>
+                                </Link> */}
                             </div>
                         </div>
                     </Col>

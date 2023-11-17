@@ -1,6 +1,10 @@
 .about {
     padding: 4rem 0 10rem;
 
+    @include respond(larger) {
+        padding: 6rem 0 10rem;
+    }
+
     &_contact-links {
         font-size: 1.8rem;
 
@@ -13,14 +17,20 @@
 
     &_my-image {
         border-radius: 0.5rem;
-        height: 35rem;
+        height: 45rem;
         object-fit: cover;
         object-position: center;
-        margin-bottom: 7rem;
+        margin-bottom: 5rem;
 
         @include respond(large) {
-            height: 40rem;
-            object-position: center 60%;
+            object-position: center 50%;
+            margin-bottom: 8rem;
+        }
+    }
+
+    &_description {
+        @include respond(larger) {
+            padding: 0 5rem;
         }
     }
 }

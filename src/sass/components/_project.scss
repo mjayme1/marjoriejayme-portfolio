@@ -21,6 +21,11 @@
             color: $color-primary;
             font-family: $font-product-regular;
         }
+
+        a {
+            color: $color-dark-1;
+            font-family: $font-product-light;
+        }
     }
 
     &_url {

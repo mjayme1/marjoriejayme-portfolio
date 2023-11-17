@@ -40,13 +40,13 @@
     ],
     "year": "2023",
     "url": "https://tindillelectric.com/",
-    "calltoaction": "View live website"
+    "calltoaction": "Visit Website"
   },
   {
     "id": 2,
     "title": "E-Learning",
     "shortdescription": "E-Learning, a fictitious start-up, aims to develop an interactive online learning platform. I created a custom theme for its WordPress site, enhancing both aesthetics and user experience.",
-    "longdescription": "E-Learning is a fictitious start-up I developed in our Content Management System subject. We were tasked to develop a custom theme for their WordPress website that aimed to provide seamless online learning experiences. I took on the challenge and designed a responsive website that includes page and post templates, a fully responsive header, footer, and sidebar widgets. The goal was to create a visually appealing and functional website that was easy to navigate and interact with, whether on a desktop or mobile device.",
+    "longdescription": "E-Learning is a fictitious start-up I developed in our Content Management System subject. We were tasked to create a custom theme for the company's WordPress website that aimed to provide seamless online learning experiences. I designed a responsive website that includes page and post templates, a fully responsive header, footer, and sidebar widgets. The goal was to create a visually appealing and functional website that was easy to navigate and interact with, whether on a desktop or mobile device.",
     "slug": "e-learning",
     "imagefeatured": "/assets/elearning/elearning.jpg",
     "images": [
@@ -85,7 +85,7 @@
     ],
     "year": "2022",
     "url": "https://marjoriejayme.ca/NAIT/dmit2032/wpelearning/",
-    "calltoaction": "View live website"
+    "calltoaction": "Visit Website"
   },
   {
     "id": 3,
@@ -129,8 +129,18 @@
         "Web Design"
     ],
     "year": "2022",
+    "files": [
+        {
+            "file": "/assets/prestigio/Low-Fidelity-Wireframes.pdf",
+            "title": "Low-Fidelity.pdf"
+        },
+        {
+            "file": "/assets/prestigio/Moodboard.pdf",
+            "title": "Mood-Board.pdf"
+        }
+    ],
     "url": "https://xd.adobe.com/view/58cf8de1-5cdd-444c-b344-42b0876382f8-0d9c/",
-    "calltoaction": "View all wireframe pages"
+    "calltoaction": "View Full Wireframe"
   },
   {
     "id": 4,
@@ -179,7 +189,7 @@
     ],
     "year": "2022",
     "url": "https://irricana.netlify.app/",
-    "calltoaction": "View live website"
+    "calltoaction": "Visit Website"
   },
   {
     "id": 5,
@@ -220,7 +230,7 @@
     ],
     "year": "2022",
     "url": "https://xd.adobe.com/view/ef821e75-8944-4ebd-8ea4-d7f4c972eae4-bad1/",
-    "calltoaction": "View full wireframe"
+    "calltoaction": "View Full Wireframe"
   },
   {
     "id": 6,
@@ -294,6 +304,6 @@
     ],
     "year": "2022",
     "url": "https://xd.adobe.com/view/e559872f-d606-4e40-9072-a960a5ebeaa2-b00a/",
-    "calltoaction": "View full wireframe"
+    "calltoaction": "View Full Wireframe"
   }
 ]
