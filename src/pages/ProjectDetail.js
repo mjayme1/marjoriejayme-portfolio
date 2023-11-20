@@ -117,15 +117,16 @@ export default function ProjectDetail() {
                                                                         key={
                                                                             index
                                                                         }
-                                                                        className="d-flex align-items-center gap-1"
+                                                                        className="d-flex align-items-center gap-1 mb-2"
                                                                     >
-                                                                        {/* <img
-                                                                            src="/assets/document-outline.svg"
+                                                                        <img
+                                                                            src="/assets/attach-outline.svg"
                                                                             alt="Document Icon"
                                                                             style={{
-                                                                                width: "15px",
+                                                                                width: "18px",
+                                                                                transform: "rotate(20deg)"
                                                                             }}
-                                                                        /> */}
+                                                                        />
                                                                         <Link
                                                                             to={
                                                                                 file.file
