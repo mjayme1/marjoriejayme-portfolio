@@ -23,8 +23,10 @@
         }
 
         a {
-            color: $color-dark-1;
+            color: $color-dark-3;
             font-family: $font-product-light;
+            font-style: italic;
+            border-bottom: 0.15rem dotted rgba($color: $color-dark-3, $alpha: 0.85);
         }
     }
 

@@ -229,7 +229,13 @@
         "Web Design"
     ],
     "year": "2022",
-    "url": "https://xd.adobe.com/view/ef821e75-8944-4ebd-8ea4-d7f4c972eae4-bad1/",
+    "files": [
+        {
+            "file": "/assets/anthonys/Style-Guide.pdf",
+            "title": "Style-Guide.pdf"
+        }
+    ],
+    "url": "https://xd.adobe.com/view/585926c9-67cb-40a7-babd-7e53c4230ec2-0d0a/",
     "calltoaction": "View Full Wireframe"
   },
   {
