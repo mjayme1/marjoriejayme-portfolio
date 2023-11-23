@@ -31,7 +31,7 @@ export default function ProjectDetail() {
                             alt={project.images[0].alt || project.title}
                             className="single-project_banner shadow-sm animate__animated animate__fadeIn"
                         />
-                        <div className="single-project_details animate__animated animate__fadeInUp">
+                        <div className="single-project_details animate__animated animate__fadeIn">
                             <h2 className="display-3 text-uppercase border-bottom border-2 border-dark pb-2">
                                 {project.id < 10 ? "0" : ""}
                                 {project.id} / {project.title}
