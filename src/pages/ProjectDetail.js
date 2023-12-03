@@ -12,12 +12,20 @@ import Footer from "../components/Footer";
 import projects from "../data/projects.json";
 
 export default function ProjectDetail() {
+    let { slug } = useParams();
+    let project = projects.find((p) => p.slug === slug);
+
     useEffect(() => {
         initLightboxJS("8336-A753-B8AB-06E2", "individual");
     });
 
-    let { slug } = useParams();
-    let project = projects.find((p) => p.slug === slug);
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [slug]);
+
+    const descriptionParagraphs = project.longdescription.split('\n').map((item, key) => {
+        return <span key={key}>{item}<br/><br/></span>;
+    });
 
     return (
         <>
@@ -157,7 +165,7 @@ export default function ProjectDetail() {
                                         Project Description
                                     </h3>
                                     <p className="pb-lg-3">
-                                        {project.longdescription}
+                                        {descriptionParagraphs}
                                     </p>
                                     <Link
                                         to={project.url}

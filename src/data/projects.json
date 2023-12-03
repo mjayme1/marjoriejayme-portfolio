@@ -91,7 +91,7 @@
     "id": 3,
     "title": "Prestigio Bakery",
     "shortdescription": "This project is called the Unsolicited Website Redesign where I chose the website of Prestigio Bakery. The project involved creating an inspirational moodboard, a low-fidelity wireframe for initial layout ideas, and a high-fidelity wireframe that presents a polished interface design.",
-    "longdescription": "This project is called the Unsolicited Website Redesign where I chose the redesign the website of Prestigio Bakery and Bistro. The project involved detailed steps: creating an inspirational moodboard, developing a low-fidelity wireframe for initial layout ideas, and finally creating a high-fidelity wireframe that presents a polished interface design. The goal of the project was to improve the user experience of the website by creating a more user-friendly and visually appealing layout.",
+    "longdescription": "This project is called the Unsolicited Website Redesign where I chose the redesign the website of Prestigio Bakery and Bistro.  The goal of the project was to improve the user experience of the website by creating a more user-friendly and visually appealing layout. \nThe project involved detailed steps: creating an inspirational moodboard, developing a low-fidelity wireframe for initial layout ideas, and finally creating a high-fidelity wireframe.\nThe high-fidelity wireframe as the final step in the design process, enabled me to incorporate the branding elements, typography, color schemes, and images to create a polished interface design.",
     "slug": "prestigio-bakery-and-bistro",
     "imagefeatured": "/assets/prestigio/prestigio-bakery.jpg",
     "images": [
@@ -241,8 +241,8 @@
   {
     "id": 6,
     "title": "Lost & Found App Design",
-    "shortdescription": "As part of our course in Advanced Communication for DMIT, we were assigned to create an idea or concept for a product or service. I proposed a lost and found app, and to effectively pitch the idea, I designed its user interface.",
-    "longdescription": "As part of our course in Advanced Communication for DMIT, we were assigned to create an idea or concept for a product or service. I created a 5-minute pitch presentation outlining the problem, my proposed solution, and the benefits it provides to the target audience. I proposed a lost and found app complemented by a user interface design for a more effective pitch and user manual.",
+    "shortdescription": "As part of our course in Advanced Communication for DMIT, we were challenged to create an idea or a concept for a product or service. I proposed a lost and found app, and to effectively pitch the idea, I designed its user interface.",
+    "longdescription": "As part of our course in Advanced Communication for DMIT, we were challenged to create an idea or a concept for a product or service. I created a 5-minute pitch presentation outlining the problem, my proposed solution, and the benefits it provides to the target audience. I proposed a lost and found app complemented by a user interface design for a more effective pitch and user manual.\nMy short pitch addresses a daily challenge: countless people misplace their belongings, and while some are fortunate to recover them, others are not. To address this, I proposed the concept of a Lost and Found App. This app serves as a digital platform where individuals and businesses can both post about lost items and search for them. It offers a practical, cost-effective solution that not only saves time and money but also fosters a sense of trust and cooperation within the community and among businesses.",
     "slug": "lost-found-app-design",
     "imagefeatured": "/assets/lostfound/lost-found-app.jpg",
     "images": [
@@ -311,5 +311,38 @@
     "year": "2022",
     "url": "https://xd.adobe.com/view/e559872f-d606-4e40-9072-a960a5ebeaa2-b00a/",
     "calltoaction": "View Full Wireframe"
+  },
+  {
+    "id": 7,
+    "title": "Portfolio Version 1",
+    "shortdescription": "I have a React and a WordPress version of my portolio website. The first version was created with WordPress, employing custom theme development to specifically tailor its design and functionality to my needs.",
+    "longdescription": "I have two versions of my portolio website. The first version was created with WordPress, employing custom theme development to specifically tailor its design and functionality to my needs. I utilized page and post templates, widgets, and select plugins for enhanced functionality, while also integrating PHP and JavaScript to further personalize various components. \nThe portfolio website you are currently in is developed using React JS to demonstrate my skill in this modern JavaScript library.",
+    "slug": "portfolio-version1",
+    "imagefeatured": "/assets/portfoliov1/portfoliov1.jpg",
+    "images": [
+        {
+            "src": "/assets/portfoliov1/portfoliov1-banner.jpg",
+            "alt": "Portfolio Version 1 Banner"
+        },
+        {
+            "src": "/assets/portfoliov1/portfoliov1-1.jpg",
+            "alt": "Portfolio Version 1 Home Page"
+        },
+        {
+            "src": "/assets/portfoliov1/portfoliov1-2.jpg",
+            "alt": "Portfolio Version 1 Work Page"
+        }
+    ],
+    "skills": [
+        "HTML/CSS/JS",
+        "WordPress"
+    ],
+    "categories": [
+        "Branding",
+        "Web Development"
+    ],
+    "year": "2022",
+    "url": "https://marjoriejayme.ca/marjoriejaymev1/",
+    "calltoaction": "View Portfolio Version 1"
   }
 ]

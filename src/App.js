@@ -8,6 +8,7 @@ import Home from "./pages/Home";
 import Work from "./pages/Work";
 import About from "./pages/About";
 import ProjectDetail from "./pages/ProjectDetail";
+import Photolog from "./pages/Photolog";
 
 import "./fonts/SpaceGrotesk-Medium.ttf";
 import "./fonts/SpaceGrotesk-Regular.ttf";
@@ -24,6 +25,7 @@ export default function App() {
                     <Route path="/work" element={<Work />} />
                     <Route path="/about" element={<About />} />
                     <Route path="/work/:slug" element={<ProjectDetail />} />
+                    <Route path="/photolog" element={<Photolog />} />
                 </Routes>
             </Router>
         </div>
