@@ -167,27 +167,30 @@ export default function ProjectDetail() {
                                     <p className="pb-lg-3">
                                         {descriptionParagraphs}
                                     </p>
-                                    <Link
+                                    {project.url && (
+                                        <Link
                                         to={project.url}
                                         target="_blank"
                                         className="single-project_url d-inline-block border-bottom border-1 border-dark mt-4 mt-lg-auto"
-                                    >
-                                        <span className="d-flex align-items-center gap-2">
-                                            <span>{project.calltoaction}</span>
-                                            <img
-                                                src="/assets/right-up-arrow.svg"
-                                                alt="Up Arrow"
-                                                style={{ width: "20px" }}
-                                            />
-                                        </span>
-                                    </Link>
+                                        >
+                                            <span className="d-flex align-items-center gap-2">
+                                                <span>{project.calltoaction}</span>
+                                                <img
+                                                    src="/assets/right-up-arrow.svg"
+                                                    alt="Up Arrow"
+                                                    style={{ width: "20px" }}
+                                                />
+                                            </span>
+                                        </Link>
+                                        )
+                                    }
                                 </Col>
                             </Row>
                             <div>
                                 <h3 className="visually-hidden">
                                     Project Images
                                 </h3>
-                                {project.id === 6 ? (
+                                {project.id === 7 ? (
                                     <div className="single-project_lightbox grid">
                                         {project.images
                                             .slice(1)
@@ -210,7 +213,7 @@ export default function ProjectDetail() {
                                             .map((image, index) => (
                                                 <img
                                                     key={index}
-                                                    className="w-full rounded mb-4"
+                                                    className="w-full rounded mb-4 shadow-sm"
                                                     src={image.src}
                                                     alt={image.alt}
                                                 />

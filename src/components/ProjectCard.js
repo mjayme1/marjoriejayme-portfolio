@@ -11,7 +11,7 @@ export default function ProjectCard({ project }) {
             <Row className="justify-content-between">
                 <Col xs={12} lg={6} className="project_col__imagefeatured">
                     <Link to={`/work/${project.slug}`}>
-                        <div className="project__imagefeatured">
+                        <div className="project__imagefeatured shadow-sm">
                             <div className="d-block">
                                 <img
                                     src={project.imagefeatured}

@@ -1,6 +1,37 @@
 [
+    {
+        "id": 1,
+        "title": "Portfolio",
+        "shortdescription": "My portfolio website is developed using React to demonstrate my skill in this modern JavaScript library. This portfolio showcases my projects, skills, and experiences, all wrapped in a responsive and polished design. ",
+        "longdescription": "My portfolio website is developed using React to demonstrate my skill in this modern JavaScript library. Leveraging the power of React's component-based architecture and utilizing various libraries, the site offers a user-friendly experience.\nThis portfolio showcases my projects, skills, and experiences, all wrapped in a responsive and polished design.",
+        "slug": "react-portfolio",
+        "imagefeatured": "/assets/react-portfolio/react-portfolio.jpg",
+        "images": [
+            {
+                "src": "/assets/react-portfolio/react-portfolio-banner.jpg",
+                "alt": "React Portfolio Banner"
+            },
+            {
+                "src": "/assets/react-portfolio/react-portfolio-1.jpg",
+                "alt": "React Portfolio Work Page"
+            },
+            {
+                "src": "/assets/react-portfolio/react-portfolio-2.jpg",
+                "alt": "React Portfolio Work Details Page"
+            }
+        ],
+        "skills": [
+            "HTML/SASS",
+            "React"
+        ],
+        "categories": [
+            "Branding",
+            "Web Development"
+        ],
+        "year": "2023"
+    },
   {
-    "id": 1,
+    "id": 2,
     "title": "Tindill Electric",
     "shortdescription": "Tindill Electric is an electrical company based in Edmonton that offers residential and commercial electrical services. We worked as a team of three with Tindill Electric to develop their website from planning to deployment.",
     "longdescription": "Tindill Electric is an Edmonton-based electrical company that provides residential and commercial electrical services. As a team of three, we collaborated with an industry client to develop their website, from planning to deployment. One of my main responsibilities was to lead the team in designing the website's wireframe, and ensure that it met all project specifications. This prototype served as a guide for me and the other developers, enabling us to efficiently implement the website into code.",
@@ -43,7 +74,7 @@
     "calltoaction": "Visit Website"
   },
   {
-    "id": 2,
+    "id": 3,
     "title": "E-Learning",
     "shortdescription": "E-Learning, a fictitious start-up, aims to develop an interactive online learning platform. I created a custom theme for its WordPress site, enhancing both aesthetics and user experience.",
     "longdescription": "E-Learning is a fictitious start-up I developed in our Content Management System subject. We were tasked to create a custom theme for the company's WordPress website that aimed to provide seamless online learning experiences. I designed a responsive website that includes page and post templates, a fully responsive header, footer, and sidebar widgets. The goal was to create a visually appealing and functional website that was easy to navigate and interact with, whether on a desktop or mobile device.",
@@ -88,7 +119,7 @@
     "calltoaction": "Visit Website"
   },
   {
-    "id": 3,
+    "id": 4,
     "title": "Prestigio Bakery",
     "shortdescription": "This project is called the Unsolicited Website Redesign where I chose the website of Prestigio Bakery. The project involved creating an inspirational moodboard, a low-fidelity wireframe for initial layout ideas, and a high-fidelity wireframe that presents a polished interface design.",
     "longdescription": "This project is called the Unsolicited Website Redesign where I chose the redesign the website of Prestigio Bakery and Bistro.  The goal of the project was to improve the user experience of the website by creating a more user-friendly and visually appealing layout. \nThe project involved detailed steps: creating an inspirational moodboard, developing a low-fidelity wireframe for initial layout ideas, and finally creating a high-fidelity wireframe.\nThe high-fidelity wireframe as the final step in the design process, enabled me to incorporate the branding elements, typography, color schemes, and images to create a polished interface design.",
@@ -143,7 +174,7 @@
     "calltoaction": "View Full Wireframe"
   },
   {
-    "id": 4,
+    "id": 5,
     "title": "Experience Irricana",
     "shortdescription": "Experience Irricana is a website I developed as part of my web business essentials course. This required me to create a landing page for a small town in Alberta, which helped me gain a better understanding of SEO and its application.",
     "longdescription": "Experience Irricana is a website I developed as part of my web business essentials course. The project required me to create a landing page for a small town in Alberta, which helped me gain a better understanding of SEO and its application. To optimize the website, I performed several activities such as writing relevant content, installing Google Analytics and Search Console, implementing social media and email marketing, and conducting SEO audits.\n",
@@ -192,7 +223,7 @@
     "calltoaction": "Visit Website"
   },
   {
-    "id": 5,
+    "id": 6,
     "title": "Anthony's Best",
     "shortdescription": "As a final project for our design and usability course, I created a landing page for a fictional chef named Anthony. The page was carefully designed to showcase Anthony's culinary expertise and provide an excellent user experience for visitors.",
     "longdescription": "I designed a landing page for a fictitious chef named Anthony as part of our design and usability course's final project. The landing page aims to explain to potential new users the website's purpose, its target audience, and the potential advantages of becoming a member. We were tasked with creating a landing page that can effectively engage and encourage visitors enough to regularly use his website for their recipe needs.",
@@ -239,7 +270,7 @@
     "calltoaction": "View Full Wireframe"
   },
   {
-    "id": 6,
+    "id": 7,
     "title": "Lost & Found App Design",
     "shortdescription": "As part of our course in Advanced Communication for DMIT, we were challenged to create an idea or a concept for a product or service. I proposed a lost and found app, and to effectively pitch the idea, I designed its user interface.",
     "longdescription": "As part of our course in Advanced Communication for DMIT, we were challenged to create an idea or a concept for a product or service. I created a 5-minute pitch presentation outlining the problem, my proposed solution, and the benefits it provides to the target audience. I proposed a lost and found app complemented by a user interface design for a more effective pitch and user manual.\nMy short pitch addresses a daily challenge: countless people misplace their belongings, and while some are fortunate to recover them, others are not. To address this, I proposed the concept of a Lost and Found App. This app serves as a digital platform where individuals and businesses can both post about lost items and search for them. It offers a practical, cost-effective solution that not only saves time and money but also fosters a sense of trust and cooperation within the community and among businesses.",
@@ -313,7 +344,7 @@
     "calltoaction": "View Full Wireframe"
   },
   {
-    "id": 7,
+    "id": 8,
     "title": "Portfolio Version 1",
     "shortdescription": "I have a React and a WordPress version of my portolio website. The first version was created with WordPress, employing custom theme development to specifically tailor its design and functionality to my needs.",
     "longdescription": "I have two versions of my portolio website. The first version was created with WordPress, employing custom theme development to specifically tailor its design and functionality to my needs. I utilized page and post templates, widgets, and select plugins for enhanced functionality, while also integrating PHP and JavaScript to further personalize various components. \nThe portfolio website you are currently in is developed using React JS to demonstrate my skill in this modern JavaScript library.",
