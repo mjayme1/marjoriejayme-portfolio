@@ -2,8 +2,8 @@
     {
         "id": 1,
         "title": "Portfolio",
-        "shortdescription": "My portfolio website is developed using React to demonstrate my skill in this modern JavaScript library. This portfolio showcases my projects, skills, and experiences, all wrapped in a responsive and polished design. ",
-        "longdescription": "My portfolio website is developed using React to demonstrate my skill in this modern JavaScript library. Leveraging the power of React's component-based architecture and utilizing various libraries, the site offers a user-friendly experience.\nThis portfolio showcases my projects, skills, and experiences, all wrapped in a responsive and polished design.",
+        "shortdescription": "My portfolio website is developed with React, leveraging the power of its component-based architecture and various libraries. This portfolio showcases my projects, skills, and experiences, all wrapped in a responsive and polished design. ",
+        "longdescription": "This portfolio website is developed using React. Leveraging the power of React's component-based architecture and utilizing various libraries, the site offers a user-friendly experience.\nThis portfolio showcases my projects, skills, and experiences, all wrapped in a responsive and polished design.",
         "slug": "react-portfolio",
         "imagefeatured": "/assets/react-portfolio/react-portfolio.jpg",
         "images": [
@@ -34,7 +34,7 @@
     "id": 2,
     "title": "Tindill Electric",
     "shortdescription": "Tindill Electric is an electrical company based in Edmonton that offers residential and commercial electrical services. We worked as a team of three with Tindill Electric to develop their website from planning to deployment.",
-    "longdescription": "Tindill Electric is an Edmonton-based electrical company that provides residential and commercial electrical services. As a team of three, we collaborated with an industry client to develop their website, from planning to deployment. One of my main responsibilities was to lead the team in designing the website's wireframe, and ensure that it met all project specifications. This prototype served as a guide for me and the other developers, enabling us to efficiently implement the website into code.",
+    "longdescription": "Tindill Electric is an Edmonton-based electrical company that provides residential and commercial electrical services. As a team of three, we collaborated with an industry client to develop their website, from planning to deployment. One of my main responsibilities was to lead the team in designing the website's wireframe, and ensure that it met all project specifications. This prototype served as a guide for me and the other developers, enabling us to efficiently implement the website into code.\nBy leveraging Advanced Custom Fields and Custom Post Types, we provided the client with a streamlined and user-friendly method for updating their content.",
     "slug": "tindill-electric",
     "imagefeatured": "/assets/tindill/tindill-electric.jpg",
     "images": [
